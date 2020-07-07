@@ -1,63 +1,73 @@
-            #calendario.jpg {
-                width: 250px;
-                padding: 15px 15px 50px 15px;
-                background-color: white;
-                Border-color: red;
-                Border-width: 10px;
-            }
-            
-            ol.a {
-                list-style-type: upper-roman;
-            }
-            
-            ul.b {
-                list-style-type: circle;
-            }
-            
-            p {
-                background-color: #F4DECB;
-            }
-            
-            p:nth-child(5) {
-                background: rgb(72, 10, 245);
-            }
-            
-            p:nth-child(even) {
-                background: blue;
-            }
-            
-            p:first-child i {
-                background-color: pink;
-            }
-            
-            section p {
-                color: red;
-            }
-            
-            p {
-                color: red;
-            }
-            
-            #section {
-                color: green;
-            }
-            
-            section section {
-                color: orange;
-            }
-            
-            section section section {
-                color: #66ff7a;
-            }
-            
-            section:hover {
-                color: violet;
-            }
-            
-            section:hover section:hover {
-                color: pink
-            }
-            
-            section:hover section:hover section:hover {
-                color: yellow;
-            }
+        #calendario.jpg {
+            width: 250px;
+            padding: 15px 15px 50px 15px;
+            background-color: rgb(247, 110, 110);
+            Border-width: 20px;
+        }
+        
+        ol.a {
+            list-style-type: upper-roman;
+        }
+        
+        ul.b {
+            list-style-type: circle;
+        }
+        
+        p {
+            color: rgb(255, 72, 0);
+        }
+        
+        p:nth-child(odd) {
+            background: rgb(211, 238, 209);
+        }
+        
+        p:first-child i {
+            background-color: rgb(181, 160, 192);
+        }
+        
+        .div1 :hover {
+            background-color: #ffccf8;
+        }
+        
+        .div2 :hover {
+            background-color: #cbbfeb;
+        }
+        
+        .div3 :hover {
+            background-color: #fcb8cf;
+        }
+        
+        p:nth-child(even) {
+            background: rgb(170, 170, 245);
+        }
+        
+        section p {
+            color: rgb(89, 0, 255);
+        }
+        
+        section section p {
+            color: orange;
+        }
+        
+        section section section p {
+            color: #b9c7bb;
+        }
+        
+        img {
+            display: block;
+            margin: auto;
+        }
+        
+        .conten {
+            background-image: url("calendario.jpg");
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            position: relative;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
