@@ -1,0 +1,63 @@
+            #calendario.jpg {
+                width: 250px;
+                padding: 15px 15px 50px 15px;
+                background-color: white;
+                Border-color: red;
+                Border-width: 10px;
+            }
+            
+            ol.a {
+                list-style-type: upper-roman;
+            }
+            
+            ul.b {
+                list-style-type: circle;
+            }
+            
+            p {
+                background-color: #F4DECB;
+            }
+            
+            p:nth-child(5) {
+                background: rgb(72, 10, 245);
+            }
+            
+            p:nth-child(even) {
+                background: blue;
+            }
+            
+            p:first-child i {
+                background-color: pink;
+            }
+            
+            section p {
+                color: red;
+            }
+            
+            p {
+                color: red;
+            }
+            
+            #section {
+                color: green;
+            }
+            
+            section section {
+                color: orange;
+            }
+            
+            section section section {
+                color: #66ff7a;
+            }
+            
+            section:hover {
+                color: violet;
+            }
+            
+            section:hover section:hover {
+                color: pink
+            }
+            
+            section:hover section:hover section:hover {
+                color: yellow;
+            }
