@@ -57,17 +57,3 @@
             display: block;
             margin: auto;
         }
-        
-        .conten {
-            background-image: url("calendario.jpg");
-            width: 100%;
-            height: 600px;
-            background-size: cover;
-            position: relative;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
